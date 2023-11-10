@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .cite-container {
+    @apply max-w-6xl mx-auto py-10 px-4;
+  }
+}
+
+a.active {
+  background: rgb(102, 202, 202);
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: black;
+  transition: 0.8;
+}
+a.active:hover {
+  background-color: blanchedalmond;
+}
